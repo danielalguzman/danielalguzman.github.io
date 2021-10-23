@@ -1,0 +1,121 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.contenido {
+    margin: 0px auto;
+    max-width: 1000px;
+    background-color: #fff;
+}
+
+.encabezado {
+    padding: 50px;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.padre {
+    display: flex;
+    justify-content: center;
+}
+
+.mostrar {
+    text-align: right;
+    background-color: #a3aebf;
+    width: 70%;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.columnas {
+    display: flex;
+}
+
+.controles {
+    margin: 20px;
+}
+
+.controles input[type="radio"] {
+    display: none;
+}
+
+.controles label {
+    font-size: 23px;
+    cursor: pointer;
+    color: #a3aebf;
+    position: relative;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 10px 20px 10px 56px;
+    font-family:Arial, Helvetica, sans-serif;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.controles label:hover {
+    background:#a3aebf;
+}
+
+.controles label:before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: none;
+    border: 3px solid #a3aebf;
+    border-radius: 50%;
+    position: absolute;
+    left: 15px;
+}
+
+.controles input[type="radio"]:checked + label {
+    padding: 10px 20px;
+    background: #a3aebf;
+    border-radius: 2px;
+    color: #fff;
+}
+
+.controles input[type="radio"]:checked + label:before {
+    display: none;
+}
+
+.columnas {
+    margin: 20px;
+}
+
+button, .desactivado {
+    width: 180px;
+    margin: 2px;
+    padding: 10px;
+    background-color: rgba(11, 32, 79, 0.2);
+    color: #000;
+    font-size: 18px;
+    border: 2px solid #a3aebf;
+    cursor: not-allowed;
+}
+
+.activado {
+    cursor: pointer;
+}
+
+.activado > * {
+    pointer-events: all;
+}
+
+button > *, .desactivado > * {
+    pointer-events: none;
+}
+
+.activado:hover {
+    background-color: #a3aebf;
+    color: #fff;
+}

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey for Product X</title>
+
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="principal">
+        <header class="espacios">
+            <h1>Survey for Product X</h1><br>
+            <h4>*Obligatorio</h4>
+        </header>
+
+        <div class="contenido">
+            <div class="main">
+                <section>
+                    <div id="articulos" class="espacios"> 
+                        <label for="">What's type of devides de you hace at home?</label><br>
+                        <label for="">tablet</label><br>
+                        <label for="">smartphone</label><br>
+                        <label for="">pc</label><br>
+                        <label for="">laptop</label><br>
+                        <label for="">Otro: </label> <input type="text" name="otro" id="otro" required maxlength="15"><br>
+                    </div>
+                </section>
+
+                <section>
+                    <div id="carrera" class="espacios">
+                        <label for="carrer">What's your carrer?</label><br><br>
+                        <select name="carrer" id="carrer">
+                            <option value="0">ITI</option>
+                            <option value="1">LCIA</option>
+                            <option value="2">MEca</option>
+                            <option value="3">ISa</option>
+                        </select>
+                    </div>
+                </section>
+
+                <section>
+                    <div id="comentario" class="espacios">
+                        <label for="comments">White your comments</label><br><br>
+                        <textarea name="comments" id="comments" cols="50" rows="2"></textarea>
+                    </div>
+                </section>
+
+                <section>
+                    <div id="idioma" class="espacios">
+                        <pre class="estilos"><label for="english">  Whats you level of english?</label><br><br>
+                        <pre class="estilos"><label for="">        Basic         1</label> <input type="radio" name="english" id="english" value="1"><label for="">     2</label> <input type="radio" name="english" id="english" value="2"><label for="">     3</label> <input type="radio" name="english" id="english" value="3"><label for="">     4</label> <input type="radio" name="english" id="english" value="4"<label for="">     5</label><input type="radio" name="english" id="english" value="5"><label for="">&nbsp;      More advanced    </label></pre>
+                    </div>
+                </section>
+
+                <section>
+                    <div id="servicios" class="espacios">
+                        <label for="opinion">Give us your opinion</label><br><br>
+                        <table align="center">
+                            <thead>
+                                <tr>
+                                    <th> </th>
+                                    <th width="50px">Bad</th>
+                                    <th>Regular</th>
+                                    <th>Good</th>
+                                    <th>Excelent</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td>Room Service</td>
+                                    <td>
+                                        <div>
+                                            <label for="room"></label>
+                                            <center><input type="radio" name="room" id="room"></center>
+                                        </div>
+                                    </td>
+
+                                    <td>
+                                        <div>
+                                            <label for="room"></label>
+                                            <center><input type="radio" name="room" id="room"></center>
+                                        </div>
+                                    </td>
+
+                                    <td>
+                                        <div>
+                                            <label for="room"></label>
+                                            <center><input type="radio" name="room" id="room"></center>
+                                        </div>
+                                    </td>
+
+                                    <td>
+                                        <div>
+                                            <label for="room"></label>
+                                            <center><input type="radio" name="room" id="room"></center>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>Reservation Service</td>
+                                    <td>
+                                        <div>
+                                            <label for="reservation"></label>
+                                            <center><input type="radio" name="reservation" id="reservation"></center>
+                                        </div>
+                                    </td>
+
+                                    <td>
+                                        <div>
+                                            <label for="reservation"></label>
+                                            <center><input type="radio" name="reservation" id="reservation"></center>
+                                        </div>
+                                    </td>
+
+                                    <td>
+                                        <div>
+                                            <label for="reservation"></label>
+                                            <center><input type="radio" name="reservation" id="reservation"></center>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div>
+                                            <label for="reservation"></label>
+                                            <center><input type="radio" name="reservation" id="reservation"></center>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>Restaurant</td>
+                                    <td>
+                                        <div>
+                                            <label for="restaurant"></label>
+                                            <center><input type="radio" name="restaurant" id="restaurant"></center>
+                                        </div>
+                                    </td>
+
+                                    <td>
+                                        <div>
+                                            <label for="restaurant"></label>
+                                            <center><input type="radio" name="restaurant" id="restaurant"></center>
+                                        </div>
+                                    </td>
+
+                                    <td>
+                                        <div>
+                                            <label for="room"></label>
+                                            <center><input type="radio" name="restaurant" id="restaurant"></center>
+                                        </div>
+                                    </td>
+
+                                    <td>
+                                        <div>
+                                            <label for="restaurant"></label>
+                                            <center><input type="radio" name="restaurant" id="restaurant"></center>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <section>
+                    <div id="cumple" class="espacios"> 
+                        <label for="birthday">Date of birth</label><br><br>
+                        <input type="date" name="birthday" id="birthday">
+                    </div>
+                </section>
+
+            </div>
+        </div>
+
+        <footer>
+            <a class="boton" class="izquierda" href="index.html">Anterior</a>
+            <a class="boton" class="derecha" href="index.html">Enviar</a>
+        </footer>
+    </div>
+</body>
+</html>

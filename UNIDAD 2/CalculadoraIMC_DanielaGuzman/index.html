@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="contenido-principal">
+        <main>
+            <h1 id="titulo">Cálculo del IMC <br> (Índice de Masa Corporal)</h1>
+            <p>
+                Si desea conocer cuál es su Índice de Masa Corporal (IMC) sólo debe ingresar los datos requeridos en la tabla 
+                y luego presionar sobre el botón “Calcular IMC”. De este modo obtendrá el “Resultado”, que le indicará cuál es 
+                su condición según peso y estatura respectivos. <br>
+                <br>
+                <b>Ejemplo: <br></b> 
+                <b>Altura en centímetros : 163 (sin punto ni coma) <br></b>
+                <b>Peso en kilos : 55 (sin punto ni coma) <br></b>
+            </p>
+        
+            <div class="acomodar">
+                <label for="peso">Peso (Kg):  </label>
+                <input type="text" id="peso" required>
+            </div>
+        
+            <div class="acomodar">
+                <label for="estatura">Estatura (Cms): </label>
+                <input type="text" id="estatura" required> 
+            </div>
+        
+            <div class="acomodar">
+                <label for="indice">IMC: </label>
+                <p id="indice"><b></b></p>
+                <p id="“resultado"><b></b></p>
+                <p id="condicion"><b></b></p>
+            </div>
+         
+            <div class="acomodar">
+                <button onclick="calcular();">CALCULAR</button>
+            </div>
+        </main>
+    
+        <aside>
+            <img src="img/body_mass.jpeg" alt="Body Mass Index">
+        </aside>
+    </div>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>

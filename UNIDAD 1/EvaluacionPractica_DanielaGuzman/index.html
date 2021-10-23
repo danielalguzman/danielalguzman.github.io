@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01 Evaluacion Practica</title>
+
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="contenido">
+        <header>
+            <img src="img/IMG_0969.jpg" alt="Daniela Guzmán"> 
+            <p>
+        <pre id="diseño">
+            <h1 class="centrado">Blog de Daniela Guzmán</h1>
+            Mi nombre es Daniela Lizeth Guzmán Vázquez, soy originaria de Ciudad Victoria en el estado de 
+            Tamaulipas, actualmente me encuentro estudiando en la Universidad Politécnica de Victoria en la 
+            carrera de Ingeniería en Tecnologías de la Información recién iniciando el 7mo cuatrimestre así 
+            como mis segundas estancias en una empresa que me permita ampliar mis conocimientos respecto a 
+            la carrera que curso actualmente.
+        </pre>
+            </p>
+        </header>
+        
+        <div class="contenido-principal">
+            <div class="main">
+                <section>
+                    <nav>
+                        <div id="menu">
+                            <ul>
+                                <br>
+                                <li><a href="#arquitectura">Arquitectura Cliente-Servidor</a></li>
+                                <li><a href="#explicacion-front">¿Qué es el Font-End?</a></li>
+                                <li><a href="#roles-front">Roles del Font-End</a></li>
+                                <li><a href="#lenguajes-front">Lenguajes y Framework del Font-End</a></li>
+                                <li><a href="#explicacion-back">¿Qué es el Back-End?</a></li>
+                                <li><a href="#roles-backend">Roles del Back-End</a></li>
+                                <li><a href="#lenguajes-back">Lenguajes y Framework del Back-End</a></li>
+                                <li><a href="#stack">Stack</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </section>
+            </div>
+            
+            <aside>
+                <article id="arquitectura">
+                    <h1>¿QUÉ ES LA ARQUITECTURA CLIENTE-SERVIDOR?</h1><br>
+                    <p>
+                        El <b>Cliente-Servidor</b> es uno de los estilos arquitectónicos distribuidos más conocidos, el cual está 
+                        compuesto por dos componentes, el proveedor y el consumidor. <br>
+                        El proveedor es un servidor que brinda una serie de servicios o recursos los cuales son consumido 
+                        por el Cliente. <br>
+                        En una arquitectura Cliente-Servidor existe un servidor y múltiples clientes que se conectan al servidor 
+                        para recuperar todos los recursos necesarios para funcionar, en este sentido, el cliente solo es una capa 
+                        para representar los datos y se detonan acciones para modificar el estado del servidor, mientras que el 
+                        servidor es el que hace todo el trabajo pesado. <br><br>
+
+                        <p>
+                            <img id="imagenes" src="img/cliente-servidor.png" alt="Cliente-Servidor">
+                            <br><br>
+                        </p>
+
+                        <p>
+                            En esta arquitectura, el servidor deberá exponer un mecanismo que permite a los clientes conectarse, que 
+                            por lo general es TCP/IP, esta comunicación permitirá una comunicación continua y bidireccional, de tal 
+                            forma que el cliente puede enviar y recibir datos del servidor y viceversa. <br><br>
+                        </p>
+                    </p>
+                </article>
+
+                <br> 
+                
+                <article id="explicacion-front">
+                    <h1>FRONT-END</h1><br>
+                        <p>
+                            El frontend de una web describe la parte que el visitante puede ver. Incluye todo el contenido que se 
+                            muestra y que es visible para el público o los usuarios que han iniciado sesión. <br>
+                            El Front-End es a menudo llamado GUI (Graphical User Interface) porque es la interfaz que los visitantes 
+                            pueden ver y usar. El frontend se utiliza principalmente para mostrar varios tipos de contenido y hacer 
+                            que la entrada del usuario esté disponible para el backend. El contenido mostrado incluye la estructura 
+                            básica del sitio web, como la navegación. El frontend incluye textos, gráficos, vídeos y otros 
+                            medios. <br>
+                            
+                            <p>
+                                <img id="imagenes" src="img/descripcion-front.PNG" alt="Front-End">
+                                <br><br>
+                            </p>
+
+                            <br>
+                        </p>
+                </article>
+                
+                <article id="roles-front">
+                    <br>
+                    <h1> ROLES EN EL FRONT-END </h1><br>
+                    <p>
+                        Los roles de los programadores Front-end, usualmente se dividen en UI Developer/Diseñador UI, Web Designer/Maquetador y 
+                        Front-end Developer/Programador Front-end, aunque también se pueden llegar a dividirse en más o ramificarse para dar 
+                        lugar a una especialidad, estos son los que podrían considerarse como los roles generales. <br>
+                        <div id="roles">
+                            <ul>
+                                <br>
+                                <li>
+                                    <b>UI Developer / Diseñador UI:</b> el UI Developer usualmente diseña siguiendo un esquema propuesto 
+                                    anteriormente en conjunción con el equipo de desarrollo, pues toda esta etapa hay que definirla y 
+                                    documentarla antes de empezar a crear las pantallas del sitio web. <br>
+                                    Es decir, en este trabajo no se escribe nada de código, más bien todo se lleva a cabo en programas 
+                                    dedicados al diseño digital, como los programas que resaltan más arriba. Sin embargo, aunque todo sea 
+                                    diseño, esto no significa que cualquier diseñador gráfico pueda hacerse con el trabajo, ya que, por 
+                                    ejemplo, se necesita experiencia en la interacción del usuario con la página y se debe cuidar el buen 
+                                    funcionamiento de los flujos de cada proceso, para ello, se hacen reuniones con el equipo de desarrollo, 
+                                    así se puede estructurar bien el diseño de la página web y evitar futuros problemas. <br>
+
+                                </li>
+                                <br>
+                                <li>
+                                    <b>Web Designer / Maquetador: </b> el trabajo del Web Designer es llevar las pantallas diseñadas por el 
+                                    UI Developer a código HTML y CSS, el cual se ejecuta al cargar la página web. Tener un buen código de 
+                                    HTML nos ayuda para la usabilidad y el marcado del sitio, además también mejora el posicionamiento de 
+                                    la página en los motores de búsqueda como Google o Bing, mientras que una buena sintaxis escrita en CSS 
+                                    está directamente relacionada con el rendimiento del sitio web y de las aplicaciones, por ello se necesita 
+                                    un amplio conocimiento de estos dos lenguajes.
+                                </li>
+                                <br>
+                                <li>
+                                    <b>Programador Front-end: </b> para este rol la programación se realiza casi enteramente en JavaScript, 
+                                    por lo que su conocimiento a profundidad es obligatorio, para ser más exactos, no es que se escriba código 
+                                    en JavaScript plano, sino que se utilizan diversas bibliotecas o frameworks de este lenguaje. En este 
+                                    punto es importante saber que los Front-end Developers se encargan de agregar la lógica al sitio web, 
+                                    ¿a qué nos referimos con esto? A que ellos o ellas implementan las API provenientes del Back-end o de 
+                                    algún otro servidor externo, las imprime en pantalla y les agrega validaciones para que puedan funcionar. <br>
+                                    En pocas palabras, se encarga de darle vida al sitio web internamente, por lo tanto, no debería de 
+                                    preocuparse por el diseño de pantalla, el tamaño o color de los botones de los sitios web, ya que de esto 
+                                    se encarga enteramente el UI Developer.
+                                </li>
+                                <br><br>
+                            </ul>
+                        </div>
+                    </p>
+                </article>
+                <br>
+
+                <article id="lenguajes-front">
+                    <h1>LENGUAJES Y FRAMEWORK UTILIZADOS EN EL FORNT-END</h1><br>
+                    <p>
+                        <div id="lenguajes">
+                            <ul>
+                                <li>
+                                    <b>HTML</b> (lenguaje de marcado de hipertexto, se utilizan etiquetas que estructuran y organizan 
+                                    el contenido de la web). 
+                                </li>
+                                <br>
+                                <li>
+                                    <b> CSS </b> (se encarga del formato y diseño visual de las páginas web escritas en html) para 
+                                    darle estructura y estilo al sitio. 
+                                </li>
+                                <br>
+                                <li>
+                                    <b>Javascript </b> (un lenguaje de programación, rápido y seguro para programar centros de datos, 
+                                    consolas, teléfonos móviles o Internet) para complementar los anteriores y darle dinamismo a los 
+                                    sitios web.
+                                </li>
+                                <br>
+                            </ul>
+                        </div>
+                        <p>
+                            HTML y CSS son lenguajes de marcado y estilo. Javascript es un lenguaje de programación.
+                            De ellos se generan una gran cantidad de frameworks y librerías que van aumentan las capacidades que se 
+                            tiene para generar cualquier tipo de interfaz de usuario, como React, Redux, Angular, Bootstrap, Foundation, 
+                            LESS, Sass, Stylus y PostCSS, entre otros. <br>
+                        </p>
+                    </p><br><br>
+                </article>
+                <br>
+
+                <article id="explicacion-back">
+                    <h1>BACK-END</h1><br>
+                    <p>
+                        Mientras que el frontend es la capa de programación ejecutada en el navegador del usuario, el 
+                        backend procesa la información que alimentará el frontend de datos. <br>
+                        Es la capa de acceso a los datos, ya sea de un software o de un dispositivo en general, es la 
+                        lógica tecnológica que hace que una página web funcione, lo que queda oculto a ojos del visitante.
+                        El backend de una solución, determina qué tan bien se ejecutará la aplicación y qué experiencia, 
+                        positiva o negativa, obtendrá el usuario de su uso.
+                        Trabajar en este apartado supone algo totalmente diferente al frontend, ya que exige el dominio 
+                        de otros términos de programación, lenguajes que requieren una lógica, ya que esta área es también 
+                        la encargada de optimizar recursos, de la seguridad de un sitio y otros factores. <br><br>
+                        
+                        <p>
+                            <img id="imagenes" src="img/descripcion-back.PNG" alt="Back-End">
+                            <br><br>
+                        </p>
+                        <br>
+                    </p>
+                </article>
+
+                <br>
+                <article id="roles-backend">
+                    <h1>ROLES EN EL BACK-END</h1><br>
+                    <p>
+                        <div id="roles-back">
+                            <ul>
+                                <li>
+                                    <b>Backend Developer o Programador Backend</b><br>
+                                    Hace toda la lógica del lado del servidor, toda la seguridad está en esta parte; si 
+                                    tú haces seguridad en el lado del cliente, una persona con relativos conocimientos 
+                                    de programación podría modificar esa validación desde el inspector del navegador, por 
+                                    eso también se agrega validación del lado del servidor y es muchísimo más segura. El 
+                                    programador Backend también se encarga de comunicarse con las bases de datos, para 
+                                    recuperar la información que luego se le enviará al Frontend.
+                                </li>
+    
+                                <br>
+                                <li>
+                                    <b>DBA(Database Administrator)</b><br>
+                                    Se encarga de Diseñar las bases datos, que son grandes almacenes de información, 
+                                    supongamos que en EDteam tenemos 50,000 suscriptores y necesitamos guardar sus datos 
+                                    (nombre, apellidos, cuándo fue la última vez que iniciaron sesión, que cursos ven, etc). 
+                                    En una aplicación la data es fundamental porque a partir de los datos se toman las 
+                                    decisiones, y una base de datos bien diseñada permite que un proyecto sea escalable, 
+                                    por eso el DBA diseña la base de datos(incluso el lápiz y papel) antes de ponerse a 
+                                    escribir código. Si un proyecto crece y la base de datos está mal diseñada, habrá que 
+                                    cambiar muchas cosas, arrastrando en el proceso al Frontend y al Backend, terminando 
+                                    en un caos total. Así como el front end y el web designer se pueden juntar en un solo 
+                                    rol, en proyectos pequeños también suele hacerse lo mismo con el back end y el DBA, 
+                                    pero lo ideal es que estén separados.                                    
+                                </li>
+    
+                                <br>
+                                <li>
+                                    <b> Arquitecto Cloud </b><br>
+                                    Analiza el proyecto para definir los requerimientos de hardware e infraestructura que se 
+                                    van a necesitar para que este pueda funcionar en producción, por ejemplo: Un proyecto que 
+                                    va a tener 10 usuarios al día no requiere mucha maquina, pero en un proyecto gigante él 
+                                    arquitecto sabrá qué requerimientos necesita (base de datos, almacenamiento, balanceamiento 
+                                    de carga, certificados ssl, etc), él arquitecto cloud diseña e implementa toda la infraestructura 
+                                    en cloud y luego se encarga de mandar el proyecto a producción.                                    
+                                </li>
+    
+                                <br>
+                                <li>
+                                    <b>QA (Quality Assurance o Control de Calidad)</b><br>
+                                    Se encarga de hacer las pruebas necesarias durante el desarrollo del proyecto para asegurarse 
+                                    del control de calidad, documenta todos los procesos para que en el futuro las cosas mejoren y 
+                                    los errores que ocurrieron no se vuelvan a repetir. Un tester solamente prueba si algo falla y 
+                                    lo reporta, en cambio un QA también ve qué cosas podrían mejorarse (Aunque no estén fallando).  <br><br><br>
+                                </li>
+                            </ul>
+                        </div>
+                    </p>
+                </article>
+
+                <br>
+                <article id="lenguajes-back">
+                    <h1>LENGUAJES Y FRAMEWORK UTILIZADOS EN EL BACK-END</h1><br>
+                    <p>
+                        Los lenguajes de backend más utilizados. Uno a uno vemos los principales lenguajes y tecnologías web que 
+                        representan el top del ranking. Entre ellas: 
+                        <div id="lenguajes">
+                            <ul>
+                                <br>
+                                <li>
+                                    <b>PHP</b>
+                                </li>
+                                <br>
+                                <li>
+                                    <b> LUA + OpenResty </b> 
+                                </li>
+                                <br>
+                                <li>
+                                    <b> PYTHON </b>
+                                </li>
+                                <br>
+                                <li>
+                                    <b>ASP. NET</b>
+                                </li>
+                                <br>
+                                <li>
+                                    <b>JAVA + OpenGse</b>
+                                </li>
+                                <br>
+                                <li>
+                                    <b>RUBY + RUBY ON RAILS</b>
+                                </li>
+                                <br>
+                            </ul>
+                        </div>
+                    </p><br>
+                </article>
+
+                <br>
+                <article id="stack">
+                    <h1>¿QUÉ ES UN STACK?</h1> <br>
+                    <p>
+                        Un stack es el conjunto de tecnologías y herramientas que se utilizan para desarrollar una aplicación, es decir, 
+                        son todas las tecnologías que usa el frontend y el backend.
+                        A este término se le denomina desarrollador Fullstack, se refiere a un programador capaz de manejar todas 
+                        estas herramientas, lenguajes y aspectos relacionados con la creación y el mantenimiento de una aplicación web.
+                        <br><br>
+                        
+                        <p>
+                            <img id="imagenes" src="img/stack.PNG" alt="Stack">
+                            <br><br>
+                        </p>
+                        <br>
+                    </p>
+                </article>
+
+            </aside>
+        </div>
+
+        <footer class="centrado">
+            <br>
+            <label for="@">Daniela Guzmán</label> <label for="@"> &copy; Todos los derechos reservados, 2021 <br></label>
+            <br>
+            <a id="link" href="https://drive.google.com/file/d/1YNL1tmaMWRS4mhkQqydTJbtqSY_Cdoq0/view?usp=sharing">* Ver video de la realizacion *</a>
+        </footer>
+        <br><br><br><br>
+    </div>
+</body>
+</html>
